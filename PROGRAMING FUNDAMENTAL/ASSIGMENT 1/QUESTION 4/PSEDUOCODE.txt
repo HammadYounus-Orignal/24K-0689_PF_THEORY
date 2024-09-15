@@ -1,0 +1,37 @@
+/* Name Hammad Younus
+*  Date 13/09/2024
+*  Roll 24K-0689
+*/
+
+
+START
+INPUT RPonions ,RPgrapes ,RPtomatoes ,RPapricots 
+PRINT "Enter the amount of money Mr. Bhoola has:"
+INPUT money
+cost = 0 , change = 0
+PRINT "Enter the quantity of onions in kgs :"
+INPUT onions
+cost = cost + (RPonions * onions)
+
+PRINT "Enter the quantity of grapes kgs :"
+INPUT grapes
+cost = cost + (RPgrapes * grapes)
+
+PRINT "Enter the quantity of tomatoes kgs :"
+INPUT tomatoes
+cost = cost + (RPtomatoes * tomatoes)
+
+PRINT "Enter the quantity of apricots kgs :"
+INPUT apricots
+cost = cost + (RPapricots * apricots)
+
+IF  cost > money THEN
+    PRINT "Mr. Bhoola does not have enough money!"
+    PRINT "Total cost: " cost
+    PRINT "Money available: " money
+ELSE
+    change = money - cost
+    PRINT "Total cost: " cost
+    PRINT "Change to be returned: " change
+END IF
+END

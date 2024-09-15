@@ -1,0 +1,26 @@
+/* NAME HAMMAD YOUNUS
+*  DATE  13/09/2024
+*  ROLL  24K-0689
+*/ 
+
+
+
+
+Input:
+
+- Ride name (THE DRAGON ROLLER COASTER, THE SKY SWING, or THE CAROUSEL)
+- Age
+- Height (in inches)
+
+Process:
+
+1. Check ride-specific conditions:
+    - THE DRAGON ROLLER COASTER: Height > 47 inches and Age > 9
+    - THE SKY SWING: Height > 53 inches (no age restriction)
+    - THE CAROUSEL: Age > 4 (no height restriction)
+2. Determine ride eligibility based on conditions
+
+Output:
+
+- "CAN RIDE" if conditions meet ride eligibility criteria
+- "JAO COMPLAN PEKAR AO" (Cannot ride) if conditions do not meet ride eligibility criteria

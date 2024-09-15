@@ -1,0 +1,19 @@
+/* NAME HAMMAD YOUNUS
+*  DATE 13/09/2024
+*  ROLL 24K-0689
+*/
+
+
+Input:
+
+- NUM (a 7-bit binary number)
+
+Processing:
+
+- Compare NUM to a series of predefined 7-bit binary values
+- Determine the corresponding digit (0-9) based on the matching binary value
+- If no match is found, determine the output as "INVALID NUMBERS ENTERED"
+
+Output:
+
+- A single character: a digit (0-9) or the string "INVALID NUMBERS ENTERED"

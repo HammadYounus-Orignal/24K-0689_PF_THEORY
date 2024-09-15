@@ -1,0 +1,22 @@
+/* NAME HAMMAD YOUNUS
+*  DATE 13/09/2024
+*  ROLL 24K-0689
+*/
+
+
+Input:
+
+- NUM is input by the user
+
+Processing 
+
+- The loop continues until NUM becomes 0
+- In each iteration:
+    - DIGIT is set to the remainder of NUM divided by 10 (NUM % 10), which gives the last digit of NUM
+    - SUM is incremented by DIGIT (SUM = SUM + DIGIT)
+    - NUM is updated by performing integer division by 10 (NUM = NUM / 10), effectively removing the last digit
+
+Output:
+
+- Once the loop ends (NUM becomes 0),
+ the program prints "THE SUM IS: " followed by the calculated SUM

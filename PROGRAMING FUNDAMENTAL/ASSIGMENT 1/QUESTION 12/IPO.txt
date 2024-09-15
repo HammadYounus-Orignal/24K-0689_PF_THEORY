@@ -1,0 +1,28 @@
+/* NAME HAMMAD YOUNUS
+*  DATE 13/09/2024
+*  ROLL 24K-0689
+*/
+
+INPUT:
+
+
+- NO INPUT REQUIRED
+
+Processing:
+
+
+1. Initialize jugs to 0
+2. Fill 5L jug
+3. Pour from 5L jug to 3L jug
+4. Empty 3L jug
+5. Pour from 5L jug to 3L jug
+6. Fill 5L jug completely
+7. Pour from 5L jug to 3L jug
+8. Check if 5L jug has exactly 4 liters
+
+
+Output:
+
+
+- "BOMB DEFUSED" if 5L jug has exactly 4 liters
+- "BOOOOOOOOM" otherwise

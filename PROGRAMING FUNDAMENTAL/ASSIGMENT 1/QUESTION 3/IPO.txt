@@ -1,0 +1,27 @@
+/* NAME    HAMMAD YOUNUS
+ * DATE    07/09/2024
+ * ROLL NO 24K-0689
+*/
+
+
+
+Input
+
+- Province
+- Gender 
+- Age 
+
+Processing 
+ 
+-if province is equal to sindh then check whether age is greater or equal to 18 then ,print "marriage is allowed"
+ else print" marriage is not allowed"
+-if province is equal to punjab then check whether girl or boy.
+if girl then check whether girl age is greater or equal to 16 then print "marraige is allowed" 
+else "print not allowed".
+if boy then check whether boy is greater or equal to 18 then print "marriage is allowed " 
+else print "marriage is not allowed" 
+ 
+Output 
+
+- Marriage is allowed 
+- Marriage is not allowed 

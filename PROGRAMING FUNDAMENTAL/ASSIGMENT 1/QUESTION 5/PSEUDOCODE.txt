@@ -1,0 +1,27 @@
+/* NAME HAMMAD YOUNUS
+*  DATE  13/09/2024
+*  ROLL  24K-0689
+*/ 
+
+
+
+
+
+START
+PRINT "Enter the type of crop (wheat, corn, or rice):"
+INPUT crop
+PRINT "Enter (yes or no) if it rained in 24 hrs: "
+INPUT rain
+PRINT "Enter the soil moisture percentage (%):"
+INPUT moisture
+IF crop == "wheat" &&  rain == "no" && moisture < 30 THEN,
+PRINT "IRRIGATE"
+ELSE IF crop == "corn" && moisture < 40 THEN,
+PRINT "IRRIGATE"
+ELSE IF crop == "rice" && moisture < 25 && rain == "no" THEN,
+PRINT "IRRIGATE"
+ELSE PRINT "NOT IRRIGATE"
+ENDIF 
+END
+    
+

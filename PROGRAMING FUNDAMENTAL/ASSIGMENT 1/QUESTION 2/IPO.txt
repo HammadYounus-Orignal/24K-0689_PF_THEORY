@@ -1,0 +1,17 @@
+/* NAME    HAMMAD YOUNUS
+ * DATE    07/09/2024
+ * ROLL NO 24K-0689
+*/
+ 
+IPO 
+
+(Input)
+- Read a number (num) from the user
+
+(Processing)
+1. Validate the input (check if num is positive and greater than 0)
+2. Calculate the remainder of num divided by 2 (temp = num MOD 2)
+3. Determine whether num is even or odd based on the value of temp
+
+(Output)
+- Print whether the number is even or odd

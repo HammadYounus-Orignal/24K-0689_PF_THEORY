@@ -1,0 +1,18 @@
+/* NAME    HAMMAD YOUNUS
+ * DATE    07/09/2024
+ * ROLL NO 24K-0689
+*/
+
+
+START
+INPUT KmPerSec FROM USER
+WHILE KmPerSec < 0 DO
+  PRINT "Invalid input. Please enter a non-negative value."
+  END PROGRAM
+ENDWHILE
+constant KmToMiles = 0.621
+constant SecToHours = 3600
+MilesPerSec = KmPerSec * KmToMiles
+MilesPerHour = MilesPerSec * SecToHours
+OUTPUT "Miles per hour: " MilesPerHour
+END

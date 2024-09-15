@@ -1,0 +1,30 @@
+/* NAME    HAMMAD YOUNUS
+ * DATE    07/09/2024
+ * ROLL NO 24K-0689
+*/
+
+
+START
+INPUT Province,Gender,Age
+IF Province == Sindh THEN
+  IF Age =< 18 THEN
+    PRINT "Marriage is not allowed"
+  ELSE
+    PRINT "Marriage is allowed"
+  END IF
+ELSE IF Province == Punjab THEN
+  IF Gender == Male THEN
+    IF Age =< 18 THEN
+      PRINT "Marriage is not allowed"
+    ELSE
+      PRINT "Marriage is allowed"
+    END IF
+  ELSE IF Gender == Female THEN
+    IF Age =< 16 THEN
+      PRINT "Marriage is not allowed"
+    ELSE
+      PRINT "Marriage is allowed"
+    END IF
+    END IF
+    END IF 
+END

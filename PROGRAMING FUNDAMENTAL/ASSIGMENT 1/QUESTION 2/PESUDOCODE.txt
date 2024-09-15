@@ -1,0 +1,18 @@
+/* NAME    HAMMAD YOUNUS
+ * DATE    07/09/2024
+ * ROLL NO 24K-0689
+*/
+
+
+START
+INPUT NUM
+WHILE NUM <= 0
+  OUTPUT "Invalid input. Please enter a positive number greater than 0."
+  INPUT NUM
+ENDWHILE 
+IF NUM MOD 2 == 0 THEN
+  OUTPUT NUM " is an even number."
+ELSE
+  OUTPUT NUM " is an odd number."
+ENDIF
+END

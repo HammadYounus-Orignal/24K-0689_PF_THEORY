@@ -1,0 +1,28 @@
+/* NAME HAMMAD YOUNUS
+*  DATE  13/09/2024
+*  ROLL  24K-0689
+*/ 
+
+
+
+
+
+Input:
+
+- Prices of onions, grapes, tomatoes, and apricots per kg (RPonions, RPgrapes, RPtomatoes, RPapricots)
+- Amount of money Mr. Bhoola has (money)
+- Quantities of onions, grapes, tomatoes, and apricots in kgs (onions, grapes, tomatoes, apricots)
+
+  Process:
+
+1. Calculate the total cost of the items purchased:
+    - cost = (RPonions * onions) + (RPgrapes * grapes) + (RPtomatoes * tomatoes) + (RPapricots * apricots)
+2. Check if Mr. Bhoola has enough money:
+    - If cost > money, print "Mr. Bhoola does not have enough money!"
+    - Else, calculate the change: change = money - cost
+
+  Output:
+
+- Total cost of the items purchased (cost)
+- Change to be returned to Mr. Bhoola (change)
+- Error message if Mr. Bhoola does not have enough money

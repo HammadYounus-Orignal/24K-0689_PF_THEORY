@@ -1,0 +1,35 @@
+/* NAME HAMMAD YOUNUS
+*  DATE 13/09/2024
+*  ROLL 24K-0689
+*/
+
+
+
+
+
+Input:
+
+
+- Birthday (BIRTHDAY)
+- Birth month (BIRTHMONTH)
+- Birth year (BIRTHYEAR)
+- Current day (CURRENTDAY)
+- Current month (CURRENTMONTH)
+- Current year (CURRENTYEAR)
+
+
+Processing:
+
+
+1. Validate inputs (check for valid ranges)
+2. Calculate age in days (AGEDAYS)
+3. Calculate age in months (AGEMONTHS)
+4. Calculate age in years (AGEYEARS)
+
+
+Output:
+
+
+- Age in days
+- Age in months
+- Age in years

@@ -1,0 +1,26 @@
+/* NAME HAMMAD YOUNUS
+*  DATE  13/09/2024
+*  ROLL  24K-0689
+*/ 
+
+
+
+
+Input:
+
+- Crop type (wheat, corn, or rice)
+- Rainfall in the last 24 hours (yes or no)
+- Soil moisture percentage (%)
+
+Process:
+
+1. Check crop type and conditions:
+    - If wheat, check if no rain and moisture < 30%
+    - If corn, check if moisture < 40%
+    - If rice, check if no rain and moisture < 25%
+2. Determine irrigation need based on conditions
+
+Output:
+
+- "IRRIGATE" if conditions meet irrigation criteria
+- "NOT IRRIGATE" if conditions do not meet irrigation criteria

@@ -1,0 +1,16 @@
+/* NAME    HAMMAD YOUNUS
+ * DATE    07/09/2024
+ * ROLL NO 24K-0689
+*/
+
+
+IPO
+
+Input:
+- kmPerSec (kilometers per second)
+Processing:
+1. Validate kmPerSec (check if it's non-negative)
+2. Calculate milesPerSec (kmPerSec * 0.621)
+3. Calculate milesPerHour (milesPerSec * 3600)
+Output:
+- milesPerHour (miles per hour)
